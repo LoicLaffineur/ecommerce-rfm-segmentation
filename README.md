@@ -53,7 +53,7 @@ Instead of sending the same campaign to everyone, a company can target only “A
 - Focus efforts on high-value customers  
 - Enable data-driven decision making  
 
-## Technologies
+## Tech Stack
 
 - Python 
 - Pandas
