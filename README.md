@@ -67,11 +67,13 @@ Instead of sending the same campaign to everyone, a company can target only “A
 
 ## Streamlit Application (Interactive Demo)
 
+Live demo: https://ecommerce-rfm-segmentation.streamlit.app/
+
 An interactive dashboard built on top of the segmentation model, organized in three tabs.
 
-Country view — Choropleth map showing revenue, orders, customers, or average basket by country. Includes a Top 10 ranking table and a full sortable data table.  
-Customer view — Search and select any customer by ID. Displays their cluster, recency, number of orders, total spend, average order value, and median interpurchase time. VIP and At-risk flags are surfaced automatically based on cluster assignment and behavioral rules. The last order detail is shown below.  
-Segmentation — Bar charts comparing number of customers and revenue per cluster, plus an interactive PCA scatter plot to visualize cluster separation.
+- Country view — Choropleth map showing revenue, orders, customers, or average basket by country. Includes a Top 10 ranking table and a full sortable data table.  
+- Customer view — Search and select any customer by ID. Displays their cluster, recency, number of orders, total spend, average order value, and median interpurchase time. VIP and At-risk flags are surfaced automatically based on cluster assignment and behavioral rules. The last order detail is shown below.  
+- Segmentation — Bar charts comparing number of customers and revenue per cluster, plus an interactive PCA scatter plot to visualize cluster separation.
 
 - ![Revenue, orders, customers, or average basket — mapped by country.](visuals/Streamlit_map.png)  
 - ![Customer KPIs, VIP / At-risk status, and last order detail.](visuals/Streamlit_client.png)  
